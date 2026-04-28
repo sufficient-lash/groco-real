@@ -284,7 +284,7 @@ section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(/Images/home\ img-1.jpg) no-repeat;
+	background: url(/Images/groco-hero.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding-top: 17rem;
@@ -300,17 +300,16 @@ section {
 }
 .home .content span {
 	color: var(--orange);
-	/* font-size: 3rem; */
-}
-.home .content span {
-	color: var(--orange);
-	/* font-size: 3rem; */
 }
 .home .content p {
-	color: var(--light-color);
+	color: #eee;
 	font-size: 1.7rem;
 	padding: 1rem 0;
 	line-height: 1.8rem;
+}
+.home .content a {
+	color: #eee;
+	border:1px solid #fff;
 }
 /* FEATURE SECTION STARTS */
 .features .box-container {
@@ -383,7 +382,7 @@ section {
 	font-size: 1.7rem;
 	color: var(--orange);
 	padding: 0.5rem 0;
-} /* USE SWIPER.COM */
+}
 /* CATEGORY SECTION STARTS */
 .categories .box-container {
 	display: grid;

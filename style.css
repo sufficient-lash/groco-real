@@ -8,6 +8,7 @@
 	--border: 0.2rem solid rgba(0, 0, 0, 0.1);
 	--outline: 0.1rem solid rgba(0, 0, 0, 0.1);
 	--outline-hover: 0.2rem solid var(--black);
+	--outline-hover: 0.2rem solid var(--pinkck);
 }
 * {
 	margin: 0;

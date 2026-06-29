@@ -65,6 +65,7 @@ section {
 	background-color: var(--orange);
 	color: #fff;
 }
+
 /* NAVBAR STARTS */
 .navbar {
 	position: fixed;
@@ -93,7 +94,6 @@ section {
 	justify-content: space-around;
 	align-items: center;
 }
-
 .navbar .navlinks a {
 	color: var(--black);
 	font-size: 1.7rem;
@@ -101,6 +101,10 @@ section {
 }
 .navbar .navlinks a:hover {
 	color: var(--orange);
+}
+/* just added  */
+.navbar .icons{
+	display: flex;
 }
 .navbar .icons div {
 	height: 4.5rem;
@@ -141,7 +145,6 @@ section {
 	right: 2rem;
 	transition: all 4s linear ease-in-out;
 }
-
 .navbar .search-form input {
 	height: 100%;
 	width: 100%;
@@ -162,7 +165,6 @@ section {
 .navbar .search-form label:hover {
 	color: var(--orange);
 }
-
 .navbar .search-form label i {
 	pointer-events: none;
 }
@@ -181,9 +183,7 @@ section {
 .navbar .shopping-cart.active {
 	right: 2rem;
 	transition: 0.4s linear;
-	/* transition: 4s linear ease-in-out; */
 }
-
 .navbar .shopping-cart .box {
 	display: flex;
 	align-items: center;
@@ -282,10 +282,12 @@ section {
 
 /* HOME SECTION STARTS */
 .home {
+	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(/Images/groco-hero.jpg) no-repeat;
+	background: url(/Images/groco-hero.jpg);
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding-top: 17rem;
@@ -312,6 +314,7 @@ section {
 	color: #eee;
 	border:1px solid #fff;
 }
+
 /* FEATURE SECTION STARTS */
 .features .box-container {
 	display: grid;
@@ -346,6 +349,7 @@ section {
 	color: var(--light-color);
 	padding: 1rem 0;
 }
+
 /* Products SECTION Starts */
 .products .product-slider {
 	padding: 1rem;
@@ -369,6 +373,9 @@ section {
 }
 .products .product-slider .box img {
 	height: 20rem;
+	width: 20rem;
+	border-radius: 50%;
+
 }
 .products .product-slider .box h3 {
 	font-size: 2.5rem;
@@ -384,6 +391,7 @@ section {
 	color: var(--orange);
 	padding: 0.5rem 0;
 }
+
 /* CATEGORY SECTION STARTS */
 .categories .box-container {
 	display: grid;
@@ -418,6 +426,7 @@ section {
 	line-height: 1.8;
 	padding: 1rem 0;
 }
+
 /* REVIEW SECTION STARTS */
 
 .review .review-slider {
@@ -460,6 +469,7 @@ section {
 	color: var(--orange);
 	font-size: 1.7rem;
 }
+
 /* BLOG SECTION START */
 .blog .box-container {
 	display: grid;
@@ -511,6 +521,7 @@ section {
 	font-size: 1.5rem;
 	padding: 0.5rem 0;
 }
+
 /* FOOTER SECTION START */
 #footer {
 	background-color: #fff;
@@ -574,7 +585,7 @@ section {
 }
 #footer .box-container .box .payment-img {
 	margin-top: 2rem;
-	width: 100%;
+	width: 20rem;
 	height: 8rem;
 }
 #footer .credit {
@@ -590,7 +601,7 @@ section {
 #footer .credit span {
 	color: var(--orange);
 }
-/* FOOTER SECTION ENDS */
+
 
 /* media quaries */
 
@@ -617,7 +628,6 @@ section {
 		position: absolute;
 		top: 110%;
 		right: -110%;
-		/* right: 2rem; */
 		width: 30rem;
 		display: none;
 		flex-direction: column;
@@ -632,7 +642,6 @@ section {
 		right: 2rem;
 		transition: 0.4s linear;
 	}
-
 	.navbar .navlinks a {
 		font-size: 2rem;
 		margin: 2rem 2.5rem;
